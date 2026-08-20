@@ -1,0 +1,71 @@
+/* General page background and font alignment */
+body { 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    text-align: center; 
+    margin: 0; 
+    padding: 50px 20px; 
+    background-color: #eef2f3; 
+}
+
+/* The white box container holding our app content */
+.card { 
+    background: white; 
+    padding: 30px; 
+    border-radius: 12px; 
+    display: inline-block; 
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1); 
+    max-width: 400px; 
+    width: 100%; 
+}
+
+/* Headings and subheadings styling */
+h1 { 
+    color: #2c3e50; 
+    font-size: 24px; 
+}
+
+/* Text boxes where users type their name */
+input { 
+    width: 80%; 
+    padding: 12px; 
+    font-size: 16px; 
+    border: 2px solid #bdc3c7; 
+    border-radius: 6px; 
+    margin-top: 15px; 
+    outline: none; 
+    transition: 0.2s; 
+}
+
+/* Changes the border color when a user clicks into the text box */
+input:focus { 
+    border-color: #3498db; 
+}
+
+/* Action buttons styling */
+button { 
+    padding: 12px 24px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    background: #3498db; 
+    color: white; 
+    border: none; 
+    border-radius: 6px; 
+    font-weight: bold; 
+    transition: 0.2s; 
+    margin-top: 15px; 
+    width: 87%; 
+}
+
+/* Makes the button slightly darker when the mouse hovers over it */
+button:hover { 
+    background: #2980b9; 
+}
+
+/* Status message paragraph style */
+p { 
+    font-size: 18px; 
+    color: #7f8c8d; 
+    margin-top: 20px; 
+    min-height: 24px; 
+    font-weight: 500; 
+}
